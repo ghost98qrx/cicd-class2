@@ -1,0 +1,13 @@
+name: Basic workflow
+on:
+  push:
+    branches:
+    - master
+
+  
+jobs:
+  simplejob:
+     runs-on: ubuntu-latest
+     steps:
+       name: greeting step
+       run: echo "welcome world"
