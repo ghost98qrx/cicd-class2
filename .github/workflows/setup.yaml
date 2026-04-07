@@ -9,5 +9,5 @@ jobs:
   simplejob:
      runs-on: ubuntu-latest
      steps:
-       name: greeting step
-       run: echo "welcome world"
+      - name: greeting step
+        run: echo "welcome world"
